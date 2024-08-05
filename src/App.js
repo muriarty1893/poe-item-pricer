@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-const { fetchItemPrice } = require("./api");
+import { fetchItemPrice } from './api';
 
 function App() {
   const [itemName, setItemName] = useState('');

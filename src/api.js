@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const { NinjaAPI } = require("poe-api-manager");
 
 const ninjaAPI = new NinjaAPI("Standard"); // League name
@@ -19,4 +21,4 @@ const fetchItemPrice = async (itemName) => {
   }
 };
 
-module.exports = { fetchItemPrice };
+export { fetchItemPrice };
